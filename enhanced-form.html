@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Application Form</title>
+    </head>
+    <body>
+        <section id="intro">
+            <h1>Welcome Members</h1>
+            <img src="images/One Piece members.jpeg" alt="members of one piece" width="800"  height="500">
+            <p></p>
+        </section>
+        <section id="form">
+            <h2>New Members Application</h2>
+            <fieldset>
+                <legend>user details</legend>
+                <label for="username">Name:</label>
+                <input type="text" name="username" placeholder="first name" autocomplete="given-name" required>
+                <input type="text" name="username" placeholder="last name" autocomplete="family-name" reqired> <br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" autocomplete="off" ><br><br>
+                <label for="address">Postal Address:</label><br>
+                <textarea type="address" id="address" name="postal address "></textarea><br><br>
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" value="Kenya" readonly><br><br>
+                
+                <label>Select your Gender</label>
+                <div class="Gender-group">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                </div>
+            </fieldset><br><br>
+                <label>Tell us how and why you love One Piece</label><br>
+                <textarea name="message" row="100" cols="50" ></textarea><br><br>
+                <label>Do you watch anime</label>
+                <input type="radio" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" value="no">
+                <label for="no">NO</label><br><br>
+                <label for="genre">If Yes choose a genre you like</label>
+                <select id="genre" name="genre">
+                    <option value="shounen">Shounen</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="si-fi">Si-fi</option>
+                    <option value="drama">Drama</option>
+                    <option value="romance">Romance</option>
+                </select><br><br>
+                <p>Here are some recommendations if you loved One Piece and your looking for other anime to watch.These recommendations might not help avid anime watchers as you probably have already watched them.</p>
+                <ul>
+                    <li>Toriko</li>
+                    <li>Hunter X Hunter</li>
+                    <li>Bleech</li>
+                    <li>Gintama</li>
+                    <li>Naruto</li>
+                    <li>Dragon Ball Z ...</li>
+                    <li>Fairy Tail</li>
+                </ul>
+                <section id="Story-Arcs">
+                    <p>One Piece is quite an old anime with over 1000 episodes. The anime story is Divided into Main story arcs which have other short acs within them referred to as Canon Arcs.Here I'll just show the first three.</p>
+                    <table>
+                        <th><b>One Piece story Arcs</b></th>
+                        <tr>
+                            <td>Main Arc</td>
+                            <td>Canon Arc</td>
+                            <td>Episodes</td>
+                        </tr>
+                        <tr>
+                            <td>East Blue</td>
+                            <td>6</td>
+                            <td>61</td>
+                        </tr>
+                         <tr>
+                            <td>Arabasta</td>
+                            <td>5</td>
+                            <td>74</td>
+                        </tr>
+                         <tr>
+                            <td>Sky Island</td>
+                            <td>2</td>
+                            <td>71</td>
+                        </tr>
+                         
+                        
+                    </table>
+                </section><br>
+                <input type="submit" value="Submit"width="200" height="100" />
+         
+        </section>
+
+    </body>
+</html>
